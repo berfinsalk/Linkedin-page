@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Linkedin</title>
+    <style>
+        i {
+            height: 300;
+            width: 100px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div style="border-bottom: solid 1px #fefbfb ;" >
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-1 " style="background-color: white;">
+            <i class=" btn fa-brands fa-3x fa-linkedin "></i>
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Arama Yap" aria-label="Search">
+            </form>
+            <div class="px-5 ">
+            <ul class="list-inline px-5 ">
+                <li class="  list-inline-item">
+                    <i class=" btn fa-solid fa-lg fa-house-chimney "></i><br>
+                    <strong>Anasayfa</strong> 
+                </li>
+                <li class=" list-inline-item text-black-50">
+                    <i class=" btn fa-solid fa-lg fa-user-group text-black-50"></i><br>
+                    <strong>Ağım</strong> 
+                </li>
+                <li class="list-inline-item text-black-50">
+                    <i class=" btn fa-solid fa-lg fa-briefcase text-black-50"></i><br>
+                    <strong>İş İlanları</strong> 
+                </li>
+                <li class="list-inline-item text-black-50">
+                    <i class=" btn fa-solid fa-lg fa-message text-black-50"></i><br>
+                    <strong>Mesajlaşma</strong> 
+                </li>
+                <li class="list-inline-item text-black-50">
+                    <i class=" btn fa-solid fa-lg fa-bell text-black-50"></i></i><br>
+                    <strong>Bildirimler</strong> 
+                </li>
+                <li class="list-inline-item text-black-50 px-3">
+                   <img src=" https://picsum.photos/id/37/30/30" alt="" class="rounded-circle" ><br>
+                    <strong>Ben</strong> 
+                </li>
+                
+                <li class="list-inline-item text-black-50">
+                    <i class=" btn fa-solid fa-lg fa-bars text-black-50"></i></i><br>
+                    <strong>İş</strong> 
+                </li>
+                <li class="list-inline-item text-black-50">
+                    <i class=" btn fa-solid fa-lg fa-upload text-black-50"></i></i><br>
+                    <strong>İş İlanı Yayınlama</strong> 
+                </li>
+
+
+            </ul>
+        </div>
+            
+          </nav>
+    </div>
+</center>
+<div style="background-color: rgb(240, 240, 237);" class="py-4">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-2 mt-5"> 
+                <div class="card" style="width: 12rem;">
+                    <img src=" https://picsum.photos/id/37/10/10" alt="" class="rounded-circle px-5 mt-4" >
+                    <div class="card-body">
+                        <center>
+                      <h5 class="card-title">Berfin Şalk</h5>
+                      <p class="card-text">İUC-Öğrenci</p>
+                      <hr>
+                      <p class="small"><small>Profil görüntüleme <span style="color: blue;"> <b> 456</b> </span> </small><br>
+                      <p class="small"><small>Yayın için görüntüleme <span style="color: blue;"> <b> 219</b></span> </small>
+                      </center>
+                    </div>
+                    <hr>
+                    <ul style="list-style: none;" class="px-3 ">
+                        <li style="display: inline ;"  >
+                            <img style="height: 20px; width: 20px;" src="https://www.pngall.com/wp-content/uploads/12/Save-Bookmark-PNG-Pic.png" alt="">                     
+                        </li>
+                        <li style="display: inline;" >
+                            <small><b>Ögelerim</b> </small>
+                        </li>
+                    </ul>
+                    
+                    
+                  </div>
+                  
+                  <div class="mt-3" >
+                    <div class="card" style="width: 12rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Sayfalarım</h5>
+            <center>
+                          <ul style="list-style: none;" class="px-1">
+                            <li style="display: inline ;"  >
+                                <img style="height: 40px; width: 40px;" src="data:image/png;base64,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" alt="">                     
+                            </li>
+                            <li style="display: inline;" class="mt-4" >
+                                <small><b>Kablosuz Beyin<br> <span class="px-0 text-black-50" > Sayfa bildirimleri  </span></b> </small>
+
+                            </li>
+                            <li style="display: inline;" class="mt-4 te" >
+                              <small><b><span class="px-1" style="color:blue ;" >10</span></b></small> 
+
+                            </li>
+                        </ul>
+
+                        </div>
+                      </div>
+                </div>
+            </center>
+
+            <div class="mt-3" >
+                <div class="card" style="width: 12rem;">
+                    <div class="card-body">
+                      <p class="card-title">En Yeni</p>
+                      <ul class="px-1 text-black-50 list-inline" style="list-style: none;">
+                        <li>
+                            <b># kodluyoruz</b>
+                        </li>
+                        <li>
+                            <b># front-end</b>
+                        </li>
+                        <li>
+                            <b># html</b>
+                        </li>
+                        <li>
+                            <b># css</b>
+                        </li>
+                        <li>
+                            <b># bootstrap</b>
+                        </li>
+                        <li class="mt-3">
+                            <b style="color:blue ;">Gruplar</b>
+                        </li>
+                        <li class="list-inline-item">
+                            <b style="color:blue ;">Etkinlikler</b>
+                        </li>
+                        <li class=" list-inline-item ml-5 px-3">
+                            <b style="font-size:x-large; color: black;">+</b>
+                        </li>
+                        <li>
+                           <small> <b style="color:blue ;">Takipteki hashtagler</b></small>
+                        </li>
+                        <li class="mt-2">
+                            <b># kodluyoruz</b>
+                        </li>
+                        <li>
+                            <b># front-end</b>
+                        </li>
+                                                
+                        </ul>
+
+                        </div>
+                        <hr>
+                        <div class=" mb-2 py-0">
+                        <center>
+                        <b><a href="#" style="text-decoration: none; color: black;">Daha fazla keşfet</a> </b>
+                        </center>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 mt-5 ">
+                <div class="card" style="width: 40rem;">
+                    <div class="card-body">
+                        <input class="form-control" type="search" placeholder="Bir gönderi başlat" aria-label="Search">
+                          <ul class="list-inline mt-4 px-2">
+                            <li class="list-inline-item ">
+                                <img height="30px" width="30px" src="https://www.freeiconspng.com/uploads/no-image-icon-13.png" alt="">
+                            </li>
+                            <li class="list-inline-item px-1">
+                                fotoğraf   
+                            </li>
+                            <li class="list-inline-item">
+                                <img height="30px" width="30px" src="https://www.freeiconspng.com/thumbs/video-icon/video-icon-1.png" alt="">
+                            </li>
+                            <li class="list-inline-item px-1">
+                                video   
+                            </li>
+                            <li class="list-inline-item ml-3">
+                                <img height="30px" width="30px" src="https://kantitatifekoloji.net/cbsproje/images/icons/icon_calendar.png" alt="">
+                            </li>
+                            <li class="list-inline-item px-1">
+                                etkinlik   
+                            </li>
+                            <li class="list-inline-item ml-3">
+                                <img height="30px" width="30px" src="https://cdn-icons-png.flaticon.com/512/4400/4400968.png" alt="">
+                            </li>
+                            <li class="list-inline-item px-1">
+                                yazı yaz   
+                            </li>
+                          </ul>
+
+                    </div>
+                  </div>
+<hr>
+                  <div class="card mt-3" style="width: 40rem;">
+                    <div class="card-body">
+                      <ul style="list-style: none;" class=" px-1">
+                        <li style="display: inline ;"  >
+                            <img style="height: 40px; width: 40px;" src="https://picsum.photos/200/300" alt="" class="rounded-circle">
+                        </li>
+                        <li style="display: inline;" class="mt-4" >
+                            <small><b>David J.Malan</b> </small>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fuga laboriosam alias quam modi nam, quos doloribus, cum minus eius obcaecati totam officiis laborum, est accusantium rerum rem magni laudantium?</p>
+                        </li>
+                       <li>
+                        <img class="card mt-2" style="width: 38rem;" src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" alt="">
+                       </li>
+                            <ul class="list-inline px-0 mt-1">
+                            
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://www.freepnglogos.com/uploads/like-png/facebook-like-1.png">
+                                </li>
+                                
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Emojione_1F44F.svg/2048px-Emojione_1F44F.svg.png">
+                                </li>
+                            
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://i.pinimg.com/originals/17/d0/74/17d0747c12d59dd8fd244e90d91956b9.png">
+                                    258
+                                </li>
+                            </ul>
+                        </ul>
+
+                    </div>
+                    <hr>
+                    <div>
+                        <ul class="list-inline px-3 text-black-50">
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://cdn-icons-png.flaticon.com/512/2107/2107956.png" alt="">
+                                <li class="list-inline-item ">
+                                    Beğen   
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="http://cdn.onlinewebfonts.com/svg/img_53145.png" alt="">
+                                <li class="list-inline-item ">
+                                    Yorum yap   
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://www.freepnglogos.com/uploads/share-png/arrow-invite-join-share-sharing-icon-15.png" alt="">
+                                <li class="list-inline-item ">
+                                    Paylaş  
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://cdn-icons-png.flaticon.com/512/2343/2343605.png" alt="">
+                                <li class="list-inline-item ">
+                                    Gönder  
+                                </li>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+
+                  <!-- post2 -->
+                  <div class="card mt-3" style="width: 40rem;">
+                    <div class="card-body">
+                      <ul style="list-style: none;" class=" px-1">
+                        <li style="display: inline ;"  >
+                            <img style="height: 40px; width: 40px;" src="https://picsum.photos/id/57/200/300" alt="" class="rounded-circle">
+                        </li>
+                        <li style="display: inline;" class="mt-4" >
+                            <small><b>John Dachen</b> </small>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fuga laboriosam alias quam modi nam, quos doloribus, cum minus eius obcaecati totam officiis laborum, est accusantium rerum rem magni laudantium?</p>
+                        </li>
+                       <li>
+                        <img class="card mt-2" style="width: 38rem;" src="https://ia.tmgrup.com.tr/e1bbcc/1160/650/0/1/551/310?u=https://i.tmgrup.com.tr/rt/2021/02/02/islamda-hayvan-sevgisi-1612273395839.jpg" alt="">
+                       </li>
+                            <ul class="list-inline px-0 mt-1">
+                            
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://www.freepnglogos.com/uploads/like-png/facebook-like-1.png">
+                                </li>
+                                
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Emojione_1F44F.svg/2048px-Emojione_1F44F.svg.png">
+                                </li>
+                            
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://i.pinimg.com/originals/17/d0/74/17d0747c12d59dd8fd244e90d91956b9.png">
+                                    3684
+                                </li>
+                            </ul>
+                        </ul>
+
+                    </div>
+                    <hr>
+                    <div>
+                        <ul class="list-inline px-3 text-black-50">
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://cdn-icons-png.flaticon.com/512/2107/2107956.png" alt="">
+                                <li class="list-inline-item ">
+                                    Beğen   
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="http://cdn.onlinewebfonts.com/svg/img_53145.png" alt="">
+                                <li class="list-inline-item ">
+                                    Yorum yap   
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://www.freepnglogos.com/uploads/share-png/arrow-invite-join-share-sharing-icon-15.png" alt="">
+                                <li class="list-inline-item ">
+                                    Paylaş  
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://cdn-icons-png.flaticon.com/512/2343/2343605.png" alt="">
+                                <li class="list-inline-item ">
+                                    Gönder  
+                                </li>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+
+                   <!-- post3 -->
+                   <div class="card mt-3" style="width: 40rem;">
+                    <div class="card-body">
+                      <ul style="list-style: none;" class=" px-1">
+                        <li style="display: inline ;"  >
+                            <img style="height: 40px; width: 40px;" src="https://picsum.photos/id/234/200/300" alt="" class="rounded-circle">
+                        </li>
+                        <li style="display: inline;" class="mt-4" >
+                            <small><b>Chonny Brawo</b> </small>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fuga laboriosam alias quam modi nam, quos doloribus, cum minus eius obcaecati totam officiis laborum, est accusantium rerum rem magni laudantium?</p>
+                        </li>
+                       <li>
+                        <img class="card mt-2" style="width: 38rem;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sunrise_at_Lake_Bled.jpg/534px-Sunrise_at_Lake_Bled.jpg" alt="">
+                       </li>
+                            <ul class="list-inline px-0 mt-1">
+                            
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://www.freepnglogos.com/uploads/like-png/facebook-like-1.png">
+                                </li>
+                                
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Emojione_1F44F.svg/2048px-Emojione_1F44F.svg.png">
+                                </li>
+                            
+                                <li style="display: inline ;"  >
+                                    <img style="height: 20px; width: 20px;" src="https://i.pinimg.com/originals/17/d0/74/17d0747c12d59dd8fd244e90d91956b9.png">
+                                    258
+                                </li>
+                            </ul>
+                        </ul>
+
+                    </div>
+                    <hr>
+                    <div>
+                        <ul class="list-inline px-3 text-black-50">
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://cdn-icons-png.flaticon.com/512/2107/2107956.png" alt="">
+                                <li class="list-inline-item ">
+                                    Beğen   
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="http://cdn.onlinewebfonts.com/svg/img_53145.png" alt="">
+                                <li class="list-inline-item ">
+                                    Yorum yap   
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://www.freepnglogos.com/uploads/share-png/arrow-invite-join-share-sharing-icon-15.png" alt="">
+                                <li class="list-inline-item ">
+                                    Paylaş  
+                                </li>
+                            </li>
+                            <li class=" btn list-inline-item px-0">
+                                <img height="30px" width="30px" src="https://cdn-icons-png.flaticon.com/512/2343/2343605.png" alt="">
+                                <li class="list-inline-item ">
+                                    Gönder  
+                                </li>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 mt-5 ">
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                      <h6 class="card-title mb-4">Akışınıza ekleyin <i style="float: right;" class="fa-solid fa-lg fa-circle-info mt-3 px-4"></i></h6>
+                      
+                      <ul style="list-style: none;" class="px-1">
+                        <li style="display: inline ;"  >
+                            <img style="height: 40px; width: 40px;" src="https://miro.medium.com/max/1000/1*6pwH-XyxDKOpVFhE8SB00g.png" class="rounded-circle">
+                        </li>
+                        <li style="display: inline;" class="mt-4" >
+                            <strong><small> Codecraft </small></strong>
+                            <button  style="float: right;" type="button" class="btn btn-outline-primary mx-4  ">+Takip et </button>
+                        </li>
+                    <div class="mt-3">
+                        <li style="display: inline;" >
+                            <img style="height: 40px; width: 40px;" src="data:image/png;base64,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" class="rounded-circle">
+                        </li>
+                        <li style="display: inline;" class="mt-4" >
+                            <strong><small> Podfresh </small></strong>
+                            <button  style="float: right;" type="button" class="btn btn-outline-primary mx-4  ">+Takip et </button>
+                        </li>
+                    </div>
+                    <div class="mt-3">
+                        <li style="display: inline;" >
+                            <img style="height: 40px; width: 40px;" src="https://startupmarket.co/cache/300x300/upload/images/startup/5c8f634e1c306001399941.jpg" class="rounded-circle">
+                        </li>
+                        <li style="display: inline;" class="mt-4" >
+                            <strong><small> Navlungo </small></strong>
+                            <button  style="float: right;" type="button" class="btn btn-outline-primary mx-4  ">+Takip et </button>
+                        </li>
+                    </div>
+                    </ul>
+
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 20rem;">
+                    <div class="card-body">
+                      <ul style="list-style: none;" class="px-1">
+                        <li style="display: inline;">
+                            <small><p class="card-title">Bugün en çok izlenenler <i class="fa-solid fa-circle-info"></i></p></small>
+                          </li>
+                     
+                        <li style="display: inline;" class="mt-4" >
+                            <strong><small>1. The Six Morning Habits of High Perf...  <span class="px-4 text-black-50">Pece Mocakatais|How to blabla...</span></small></strong>
+                        </li>
+                        <li style="display: inline;" class="mt-4" >
+                            <strong><small>2. Onconscious Blas cdsjncjdnscj <span class="px-4 text-black-50">Stacey Gordon</span></small></strong>
+                        </li><br>
+                        <li style="display: inline;" class="mt-4" >
+                            <strong><small>3. Critical Thinking for Better Than me..  <span class="px-4 text-black-50">Beltci Saltzaman</span></small></strong>
+                        </li>
+                        <br>
+                        <li class="mt-3"><a style="text-decoration: none; text-align: center;" href="#"><strong> Linkedin Leraning'de daha fazlasını göster</strong></a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                
+                <!--mesajlaşma-->
+                <div class="card" style="width: 20rem; height: 4rem; position: fixed; bottom: 0%; right: 1%; "  >
+                    <div class="card-body">                          
+                    <ul style="list-style: none;" class="px-1">
+                            <li style="display: inline ; text-align: center;"  >
+                                <img style="height: 30px; width: 30px;" src=" https://picsum.photos/id/37/30/30" class="rounded-circle">
+                            </li>
+                            <li style="display: inline;" >
+                                <strong class="px-1" ><small> Mesajlaşma</small></strong>
+                                <i style="float: right;" class="fa-solid fa-lg fa-pen-to-square px-3 text-black-50"> ...    ⌃</i>
+                                
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            <div class="mt-4" >
+                <a style="text-decoration: none;" class="text-black-50 px-2" href="">Hakkında </a>
+                <a style="text-decoration: none;" class="text-black-50 px-2" href="">Erişilebilirlik </a>
+                <a style="text-decoration: none;" class="text-black-50 px-2" href="">Yardım Merkezi </a>
+                <a style="text-decoration: none;" class="text-black-50 px-2" href="">Gizlilik ve Koşullar </a>
+                <a style="text-decoration: none;" class="text-black-50 px-2" href="">Reklam Tercihleri </a>
+                <a style="text-decoration: none;" class="text-black-50 px-5" href="">Reklam </a>
+                <br>
+                <br>
+                <ul style="display: inline; text-decoration: none;" class="mt-5">
+                    <li style="text-decoration: none; display: inline; color: blue;">
+                    <strong>Linked</strong>
+                    </li>
+                    <li style="text-decoration: none; display: inline; color: blue;"> 
+                        <i style=" display: inline;" class="fa-brands fa-xl fa-linkedin"></i>
+                    </li>
+                    <li style="text-decoration: none; display: inline;" class="text-black-50 ">
+                    <small>Linkedin Corpotion © 2021</small>
+                    </li>
+                    
+                </ul>
+            </div>
+                </div>
+                 
+                  
+
+                   
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
